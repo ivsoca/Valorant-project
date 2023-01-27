@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>V A L O R A N T</title>
+</head>
+<link rel="icon" href=".\assets\valoranticon.png">
+<link rel="stylesheet" href="./style.css">
+<body style="background-color: #040303;">
+	<header>
+		<h1 class="titulo">VALORANTES</h1>
+	</header>
+		<div class="caja1">
+		<h2>Agents</h2>
+		<label for="agentName">
+			<input type="text" name="agentName" id="agentName" placeholder="Agent name">
+			<input type="button" value="Buscar" id="getAgent">
+		</label>
+		<ul id="lista">
+		</ul>
+			<div id="agentContainer" style="color: wheat;">	
+			</div>
+	<button id="ReloadAgents">Volver a cargar</button>
+	</div>
+	
+	<div class="caja2">
+		<h2>Weapons</h2>
+	<form>
+		<label for="weaponName">
+			<input type="text" name="weaponName" id="weaponName" placeholder="Weapon name">
+			<input type="button" value="Buscar" id="getWeapon">
+		</label>
+		<ul id= "otraLista">
+		</ul>
+		<div id="weaponContainer" style="color: wheat;">
+		</div>
+		<button  id="ReloadWeapon">Volver a cargar</button>
+	</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

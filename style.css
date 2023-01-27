@@ -1,0 +1,130 @@
+@font-face {
+    font-family: ValorantFont;
+    src:url(fuentes/ValorantFont.ttf);
+}
+@font-face {
+    font-family: Klik-Light;
+    src:url(fuentes/Klik-Light.otf);
+}
+
+.titulo {
+    font-family: ValorantFont;
+    background-color:rgba(161, 51, 51, .9);
+    height: 49px;
+    width: 350px;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    font-family:Klik-Light;
+    color: white;
+    font-size: 30px;
+}
+
+#ReloadWeapon, #ReloadAgents {
+    font-family:Klik-Light;
+    color: #030202;
+    background-color:  wheat;
+    border-radius: 1em; 
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+#ReloadWeapon:hover,#ReloadAgents:hover{
+    background-color: #FD4556;
+}
+
+#ReloadWeapon:active,#ReloadAgents:active{
+    background-color: #A13333;
+}  
+
+.agent:hover {
+    background:#A13333;
+}
+
+.agent:active {
+    background:#FD4556;
+}
+
+.weapons:hover {
+    background:#A13333;
+}
+
+.weapons:active {
+    background:#FD4556;
+}
+
+.agent {
+    background-color: #461111;
+    height: 49px;
+    width: 350px; 
+}
+
+.weapons {
+    background-color: #461111;
+    height: 49px;
+    width: 350px;
+}
+
+
+
+li{
+    color: #A13333;
+}
+
+#getWeapon, #getAgent{
+    font-family:Klik-Light;
+    color: #030202;
+    background-color:  wheat;
+    border-radius: 1em; 
+    font-size: 17px;
+}
+
+#getWeapon:hover, #getAgent:hover{
+    background-color: #FD4556;
+}
+
+#getWeapon:active, #getAgent:active{
+    background-color: #A13333;
+}
+
+#agentName {
+    border-radius: 1em;
+    font-size: 20px; 
+}
+
+#weaponName {
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.caja1 {
+    float: left;
+    margin: 10px;
+}
+
+.caja2 {
+    float:left;
+    margin: 10px;
+}
+
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 50px;
+}
+
+.agentImage {
+    width: 450px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+

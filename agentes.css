@@ -1,0 +1,50 @@
+.container-flex-border-black {
+    border:5px solid black;
+    width: 1000px;
+    height:1300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.flex-border-red{
+    border:3px solid red;
+    width:950px;
+    height:500px;
+    align-self: center;
+    display: flex;
+    margin-top: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+.abajo{
+    width:950px;
+    height:10px; 
+    margin:70px; 
+}
+
+.cuadrado-verde{
+    border:3px solid green;
+    width:950px;
+    height:26px; 
+    
+}
+
+
+.flex-border-green {
+    border:3px solid green;
+    width:320px;
+    height:450px;
+    padding: 20px;   
+}
+
+.dos {
+    width: 1000px;
+}
+
+.p-5{
+    padding: 30px;
+}
